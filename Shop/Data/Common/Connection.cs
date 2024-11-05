@@ -32,7 +32,7 @@ namespace Shop.Data.Common
         /// <summary>
         /// Закрываем соединение с базой данных
         /// </summary>
-        /// <param name="Connection"></param>
+        /// <param name="Connection"></param> 
         public static void MysqlColose(MySqlConnection Connection)
         {
             Connection.Close();
